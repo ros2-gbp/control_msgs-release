@@ -2,21 +2,27 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.5.2 (2020-03-11)
+2.3.0 (2020-05-16)
 ------------------
-* Bump CMake version to avoid CMP0048 (`#40 <https://github.com/ros-controls/control_msgs/issues/40>`_)
-* Contributors: Shane Loretz
+* Implement "flexible joint states" message: add DynamicJointState message
+* add description of JointControllerState.msg (`#30 <https://github.com/ros-controls/control_msgs/issues/30>`_) (`#39 <https://github.com/ros-controls/control_msgs/issues/39>`_)
+* Contributors: Bence Magyar
 
-1.5.1 (2019-11-27)
+2.2.0 (2019-09-09)
 ------------------
-* add description of JointControllerState.msg (`#30 <https://github.com/ros-controls/control_msgs/issues/30>`_)
-* Contributors: Shuang Li
+* generate action interfaces
+* Contributors: Mathias Lüdtke
 
-1.5.0 (2019-02-19)
+2.1.0 (2019-01-29)
 ------------------
-* Adding a JointJog msg
+* Fix up dependencies for actionlib and Crystal
+* Contributors: Bence Magyar
+
+2.0.0 (2019-01-25)
+------------------
+* ROS2 Bouncy conversion
 * Replace Adolfo with Bence as maintainer
-* Contributors: AndyZe, Bence Magyar
+* Contributors: Austin Deric, Bence Magyar, Nestor Gonzalez
 
 1.4.0 (2016-04-15)
 ------------------

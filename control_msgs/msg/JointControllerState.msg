@@ -1,7 +1,7 @@
 # This message presents current controller state of one joint.
 
 # Header timestamp should be update time of controller state
-Header header
+std_msgs/Header header
 
 # The set point, that is, desired state.
 float64 set_point
