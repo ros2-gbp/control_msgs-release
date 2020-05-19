@@ -1,3 +1,26 @@
+## control_msgs (foxy) - 2.3.0-3
+
+The packages in the `control_msgs` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy control_msgs` on `Tue, 19 May 2020 08:32:33 -0000`
+
+The `control_msgs` package was released.
+
+Version of package(s) in repository `control_msgs`:
+
+- upstream repository: git://github.com/ros-controls/control_msgs.git
+- release repository: https://github.com/ros-gbp/control_msgs-release.git
+- rosdistro version: `2.3.0-2`
+- old version: `2.3.0-2`
+- new version: `2.3.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## control_msgs (foxy) - 2.3.0-2
 
 The packages in the `control_msgs` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --track foxy --rosdistro foxy control_msgs --edit` on `Sat, 16 May 2020 18:11:54 -0000`
