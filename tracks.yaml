@@ -163,7 +163,8 @@ tracks:
     ros_distro: galactic
     vcs_type: git
     vcs_uri: git://github.com/ros-controls/control_msgs.git
-    version: :{auto}
+    version: 2.5.0
+    version_saved: :{auto}
   hydro:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
