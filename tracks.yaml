@@ -21,7 +21,7 @@ tracks:
     release_tag: :{version}
     ros_distro: bouncy
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   convert:
     actions:
@@ -40,7 +40,7 @@ tracks:
     release_tag: :{version}
     ros_distro: groovy
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   crystal:
     actions:
@@ -64,7 +64,7 @@ tracks:
     release_tag: :{version}
     ros_distro: crystal
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   dashing:
     actions:
@@ -88,7 +88,7 @@ tracks:
     release_tag: :{version}
     ros_distro: dashing
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   eloquent:
     actions:
@@ -112,7 +112,7 @@ tracks:
     release_tag: :{version}
     ros_distro: eloquent
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   foxy:
     actions:
@@ -136,7 +136,7 @@ tracks:
     release_tag: :{version}
     ros_distro: foxy
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   galactic:
     actions:
@@ -162,7 +162,7 @@ tracks:
     release_tag: :{version}
     ros_distro: galactic
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   hydro:
     actions:
@@ -204,7 +204,7 @@ tracks:
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   jade:
     actions:
@@ -226,7 +226,7 @@ tracks:
     release_tag: :{version}
     ros_distro: jade
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   kinetic:
     actions:
@@ -250,7 +250,7 @@ tracks:
     release_tag: :{version}
     ros_distro: kinetic
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   lunar:
     actions:
@@ -274,7 +274,7 @@ tracks:
     release_tag: :{version}
     ros_distro: lunar
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   melodic:
     actions:
@@ -298,7 +298,7 @@ tracks:
     release_tag: :{version}
     ros_distro: melodic
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   noetic:
     actions:
@@ -322,7 +322,7 @@ tracks:
     release_tag: :{version}
     ros_distro: noetic
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
   rolling:
     actions:
@@ -348,5 +348,5 @@ tracks:
     release_tag: :{version}
     ros_distro: rolling
     vcs_type: git
-    vcs_uri: git://github.com/ros-controls/control_msgs.git
+    vcs_uri: https://github.com/ros-controls/control_msgs.git
     version: :{auto}
