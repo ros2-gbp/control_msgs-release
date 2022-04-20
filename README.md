@@ -1,3 +1,26 @@
+## control_msgs (humble) - 3.0.0-1
+
+The packages in the `control_msgs` repository were released into the `humble` distro by running `/home/steven/osrf/bloom/.direnv/python-3.10.4/bin/bloom-release -r humble control_msgs` on `Wed, 20 Apr 2022 23:34:50 -0000`
+
+The `control_msgs` package was released.
+
+Version of package(s) in repository `control_msgs`:
+
+- upstream repository: https://github.com/ros-controls/control_msgs.git
+- release repository: https://github.com/ros2-gbp/control_msgs-release.git
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.0`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## control_msgs (galactic) - 3.0.0-2
 
 The packages in the `control_msgs` repository were released into the `galactic` distro by running `/usr/local/bin/bloom-release --track galactic --rosdistro galactic control_msgs` on `Sun, 06 Jun 2021 19:25:49 -0000`
