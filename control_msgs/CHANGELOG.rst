@@ -2,21 +2,16 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-5.0.0 (2023-04-28)
+4.4.0 (2023-04-28)
 ------------------
-* Update JTC state message (`#86 <https://github.com/ros-controls/control_msgs/issues/86>`_)
+* Update JTC state message (`#87 <https://github.com/ros-controls/control_msgs/issues/87>`_)
 * Contributors: Christoph Fröhlich
 
-4.3.0 (2023-04-02)
+4.1.1 (2023-03-23)
 ------------------
-* Add generic messages for commanding and getting states from controllers. (`#69 <https://github.com/ros-controls/control_msgs/issues/69>`_)
-* Contributors: Dr. Denis
-
-4.2.0 (2023-03-22)
-------------------
-* Add state message for mechanum controller #79
-* Status message for steering controllers
-* Contributors: Denis Štogl, GiridharBukka, petkovich
+* Status message for steering controllers (backport `#72 <https://github.com/ros-controls/control_msgs/issues/72>`_) (`#83 <https://github.com/ros-controls/control_msgs/issues/83>`_)
+* Add state message for mechanum controller (backport `#79 <https://github.com/ros-controls/control_msgs/issues/79>`_) (`#82 <https://github.com/ros-controls/control_msgs/issues/82>`_)
+* Contributors: Bence Magyar, Denis Stogl, Giridhar Bukka
 
 4.1.0 (2022-10-19)
 ------------------

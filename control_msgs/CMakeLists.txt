@@ -30,11 +30,7 @@ set(msg_files
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
   msg/MecanumDriveControllerState.msg
-  msg/MultiDOFCommand.msg
-  msg/MultiDOFStateStamped.msg
   msg/PidState.msg
-  msg/SingleDOFState.msg
-  msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
 )
 
