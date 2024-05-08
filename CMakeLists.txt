@@ -35,6 +35,7 @@ set(msg_files
 )
 
 set(action_files
+  action/ParallelGripperCommand.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
@@ -46,11 +47,6 @@ set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
 )
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${action_files}
