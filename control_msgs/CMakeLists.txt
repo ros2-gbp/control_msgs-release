@@ -30,11 +30,7 @@ set(msg_files
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
   msg/MecanumDriveControllerState.msg
-  msg/MultiDOFCommand.msg
-  msg/MultiDOFStateStamped.msg
   msg/PidState.msg
-  msg/SingleDOFState.msg
-  msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
 )
 
@@ -51,11 +47,6 @@ set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
 )
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${action_files}
