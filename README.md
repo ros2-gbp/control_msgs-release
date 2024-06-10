@@ -1,6 +1,8 @@
 control_msgs
 ===========
 
+control_msgs contains base messages and actions useful for controlling robots. It provides representations for controller setpoints and joint and cartesian trajectories.
+
 See [control_msgs documentation](https://index.ros.org/p/control_msgs/) on index.ros.org
 
 
@@ -11,6 +13,7 @@ See [control_msgs documentation](https://index.ros.org/p/control_msgs/) on index
 | Noetic       | [kinetic-devel](https://github.com/ros-controls/control_msgs/tree/kinetic-devel) | [Build status](https://travis-ci.org/ros-controls/control_msgs) |
 | Humble      | [humble](https://github.com/ros-controls/control_msgs/tree/humble) | [![Humble Binary Build](https://github.com/ros-controls/control_msgs/actions/workflows/humble-build.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/humble-build.yml) |
 | Iron     | [master](https://github.com/ros-controls/control_msgs/tree/master) | [![Rolling Binary Build](https://github.com/ros-controls/control_msgs/actions/workflows/rolling-build.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/rolling-build.yml) |
+| Jazzy     | [master](https://github.com/ros-controls/control_msgs/tree/master) | [![Rolling Binary Build](https://github.com/ros-controls/control_msgs/actions/workflows/rolling-build.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/rolling-build.yml) |
 | Rolling     | [master](https://github.com/ros-controls/control_msgs/tree/master) | [![Rolling Binary Build](https://github.com/ros-controls/control_msgs/actions/workflows/rolling-build.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/rolling-build.yml) |
 
 ## Code Formatting
