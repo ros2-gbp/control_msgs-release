@@ -12,6 +12,9 @@ trajectory_msgs/JointTrajectoryPoint feedback
 trajectory_msgs/JointTrajectoryPoint error
 # Current output of the controller.
 trajectory_msgs/JointTrajectoryPoint output
+# -- deprecated --
+trajectory_msgs/JointTrajectoryPoint desired
+trajectory_msgs/JointTrajectoryPoint actual
 
 string[] multi_dof_joint_names
 # The set point, that is, desired state.
@@ -22,5 +25,6 @@ trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_feedback
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_error
 # Current output of the controller.
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_output
-# The speed scaling factor the trajectory is currently being executed with
-float64 speed_scaling_factor
+# -- deprecated --
+trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_desired
+trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_actual
