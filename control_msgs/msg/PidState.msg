@@ -1,13 +1,24 @@
 std_msgs/Header header
 builtin_interfaces/Duration timestep
+
+# error = target - state
 float64 error
+# derivative of error
 float64 error_dot
-float64 p_error
-float64 i_error
-float64 d_error
-float64 p_term
+
+# weighted integral of error
 float64 i_term
-float64 d_term
+
+# proportional gain
+float64 p_gain
+# integral gain
+float64 i_gain
+# derivative gain
+float64 d_gain
+# upper integral clamp.
 float64 i_max
+# lower integral clamp.
 float64 i_min
+
+# output of the PID controller
 float64 output
