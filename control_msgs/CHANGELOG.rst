@@ -2,38 +2,44 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-4.8.0 (2025-03-12)
+5.4.0 (2025-03-12)
 ------------------
-* Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_) (`#174 <https://github.com/ros-controls/control_msgs/issues/174>`_)
-* Contributors: mergify[bot]
-
-4.7.0 (2024-11-18)
-------------------
-* Add Dynamic Interface Group Values message (backport `#155 <https://github.com/ros-controls/control_msgs/issues/155>`_) (`#156 <https://github.com/ros-controls/control_msgs/issues/156>`_)
-* Contributors: mergify[bot]
-
-4.6.0 (2024-06-10)
-------------------
-* Propose generic messages for commanding and getting states from controllers. (backport `#69 <https://github.com/ros-controls/control_msgs/issues/69>`_) (`#133 <https://github.com/ros-controls/control_msgs/issues/133>`_)
-* Contributors: mergify[bot]
-
-4.5.0 (2024-05-08)
-------------------
-* Add velocity to gripper command (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_) (`#129 <https://github.com/ros-controls/control_msgs/issues/129>`_)
-* Add custom rosdoc2 config (`#132 <https://github.com/ros-controls/control_msgs/issues/132>`_) (`#135 <https://github.com/ros-controls/control_msgs/issues/135>`_)
-* Specify BSD as BSD-3-Clause (`#114 <https://github.com/ros-controls/control_msgs/issues/114>`_) (`#116 <https://github.com/ros-controls/control_msgs/issues/116>`_)
-* Contributors: Christoph Fröhlich, Paul Gesel
-
-4.4.0 (2023-04-28)
-------------------
-* Update JTC state message (`#87 <https://github.com/ros-controls/control_msgs/issues/87>`_)
+* Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
 * Contributors: Christoph Fröhlich
 
-4.1.1 (2023-03-23)
+5.3.0 (2024-11-18)
 ------------------
-* Status message for steering controllers (backport `#72 <https://github.com/ros-controls/control_msgs/issues/72>`_) (`#83 <https://github.com/ros-controls/control_msgs/issues/83>`_)
-* Add state message for mechanum controller (backport `#79 <https://github.com/ros-controls/control_msgs/issues/79>`_) (`#82 <https://github.com/ros-controls/control_msgs/issues/82>`_)
-* Contributors: Bence Magyar, Denis Stogl, Giridhar Bukka
+* Add Dynamic Interface Group Values message (`#155 <https://github.com/ros-controls/control_msgs/issues/155>`_)
+* Add speed_scaling_factor msg and field in JointTrajectoryControllerState (`#143 <https://github.com/ros-controls/control_msgs/issues/143>`_)
+* Contributors: Felix Exner (fexner), Wiktor Bajor
+
+5.2.0 (2024-06-10)
+------------------
+* Add message for publishing interface values with name and stamp (`#98 <https://github.com/ros-controls/control_msgs/issues/98>`_)
+* Add custom rosdoc2 config (`#132 <https://github.com/ros-controls/control_msgs/issues/132>`_)
+* Contributors: Christoph Fröhlich, Manuel Muth
+
+5.1.0 (2024-04-09)
+------------------
+* Add ParallelGripperCommand (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_)
+* Specify BSD as BSD-3-Clause (`#114 <https://github.com/ros-controls/control_msgs/issues/114>`_)
+* Contributors: Christoph Fröhlich, Paul Gesel
+
+5.0.0 (2023-04-28)
+------------------
+* Update JTC state message (`#86 <https://github.com/ros-controls/control_msgs/issues/86>`_)
+* Contributors: Christoph Fröhlich
+
+4.3.0 (2023-04-02)
+------------------
+* Add generic messages for commanding and getting states from controllers. (`#69 <https://github.com/ros-controls/control_msgs/issues/69>`_)
+* Contributors: Dr. Denis
+
+4.2.0 (2023-03-22)
+------------------
+* Add state message for mechanum controller #79
+* Status message for steering controllers
+* Contributors: Denis Štogl, GiridharBukka, petkovich
 
 4.1.0 (2022-10-19)
 ------------------
