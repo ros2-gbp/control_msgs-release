@@ -2,20 +2,13 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-6.2.0 (2025-06-06)
+5.4.1 (2025-06-06)
 ------------------
-* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_)
-* Refine naming in SteeringControllerStatus (`#211 <https://github.com/ros-controls/control_msgs/issues/211>`_)
-* Contributors: Christoph Fröhlich
+* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_) (`#216 <https://github.com/ros-controls/control_msgs/issues/216>`_)
+* Contributors: mergify[bot]
 
-6.1.0 (2025-04-24)
+5.4.0 (2025-03-12)
 ------------------
-* Remove unused members from PidState.msg (`#178 <https://github.com/ros-controls/control_msgs/issues/178>`_)
-* Contributors: Victor Coutinho Vieira Santos
-
-6.0.0 (2025-03-12)
-------------------
-* Cleanup duplicate entries in the msg definition (`#179 <https://github.com/ros-controls/control_msgs/issues/179>`_)
 * Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
 * Contributors: Christoph Fröhlich
 
