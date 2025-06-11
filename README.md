@@ -1,3 +1,26 @@
+## control_msgs (rolling) - 6.3.0-1
+
+The packages in the `control_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling control_msgs` on `Wed, 11 Jun 2025 11:28:46 -0000`
+
+The `control_msgs` package was released.
+
+Version of package(s) in repository `control_msgs`:
+
+- upstream repository: https://github.com/ros-controls/control_msgs.git
+- release repository: https://github.com/ros2-gbp/control_msgs-release.git
+- rosdistro version: `6.1.0-1`
+- old version: `6.2.0-1`
+- new version: `6.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## control_msgs (kilted) - 6.3.0-1
 
 The packages in the `control_msgs` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --ros-distro kilted control_msgs` on `Wed, 11 Jun 2025 11:20:49 -0000`
