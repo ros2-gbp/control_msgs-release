@@ -33,7 +33,6 @@ set(msg_files
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
-  msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
 )
 
