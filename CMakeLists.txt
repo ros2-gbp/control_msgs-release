@@ -18,6 +18,8 @@ set(msg_files
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
+  msg/Keys.msg
+  msg/Float64Values.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
@@ -62,7 +64,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     sensor_msgs
     std_msgs
     trajectory_msgs
-  ADD_LINTER_TESTS
 )
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
