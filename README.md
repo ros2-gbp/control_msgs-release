@@ -1,3 +1,26 @@
+## control_msgs (jazzy) - 5.6.0-1
+
+The packages in the `control_msgs` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release -r jazzy control_msgs` on `Tue, 16 Dec 2025 07:12:21 -0000`
+
+The `control_msgs` package was released.
+
+Version of package(s) in repository `control_msgs`:
+
+- upstream repository: https://github.com/ros-controls/control_msgs.git
+- release repository: https://github.com/ros2-gbp/control_msgs-release.git
+- rosdistro version: `5.5.0-1`
+- old version: `5.5.0-1`
+- new version: `5.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## control_msgs (kilted) - 6.6.0-1
 
 The packages in the `control_msgs` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -r kilted control_msgs` on `Tue, 09 Dec 2025 18:07:07 -0000`
