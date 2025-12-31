@@ -5,7 +5,6 @@ project(control_msgs)
 find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
-find_package(diagnostic_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
@@ -15,17 +14,10 @@ find_package(trajectory_msgs REQUIRED)
 set(msg_files
   msg/AdmittanceControllerState.msg
   msg/BatteryStateArray.msg
-  msg/CANopenState.msg
   msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
-  msg/EtherCATState.msg
-  msg/GenericHardwareState.msg
   msg/GripperCommand.msg
-  msg/HardwareDeviceDiagnostics.msg
-  msg/HardwareDeviceStatus.msg
-  msg/HardwareDiagnostics.msg
-  msg/HardwareStatus.msg
   msg/InterfaceValue.msg
   msg/Keys.msg
   msg/Float64Values.msg
@@ -34,8 +26,6 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
-  msg/JointWrenchTrajectory.msg
-  msg/JointWrenchTrajectoryPoint.msg
   msg/MecanumDriveControllerState.msg
   msg/MotionArgument.msg
   msg/MotionPrimitive.msg
@@ -46,11 +36,8 @@ set(msg_files
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
-  msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
   msg/VDA5050SafetyState.msg
-  msg/VDA5050State.msg
-  msg/WrenchFramed.msg
 )
 
 set(action_files
@@ -58,7 +45,6 @@ set(action_files
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
-  action/FollowJointWrenchTrajectory.action
   action/ParallelGripperCommand.action
   action/PointHead.action
   action/SingleJointPosition.action
@@ -76,7 +62,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES
     action_msgs
     builtin_interfaces
-    diagnostic_msgs
     geometry_msgs
     sensor_msgs
     std_msgs
