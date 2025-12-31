@@ -14,6 +14,7 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/BatteryStateArray.msg
   msg/CANopenState.msg
   msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
@@ -47,6 +48,7 @@ set(msg_files
   msg/SteeringControllerStatus.msg
   msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
+  msg/VDA5050SafetyState.msg
   msg/VDA5050State.msg
   msg/WrenchFramed.msg
 )
