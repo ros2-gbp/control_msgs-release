@@ -1,14 +1,6 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
 project(control_msgs)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
 
 find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
@@ -21,29 +13,39 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/BatteryStateArray.msg
   msg/DynamicInterfaceGroupValues.msg
+  msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
+  msg/Keys.msg
+  msg/Float64Values.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
   msg/MecanumDriveControllerState.msg
+  msg/MotionArgument.msg
+  msg/MotionPrimitive.msg
+  msg/MotionPrimitiveSequence.msg
   msg/MultiDOFCommand.msg
   msg/MultiDOFStateStamped.msg
   msg/PidState.msg
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
+  msg/SpeedScalingFactor.msg
+  msg/VDA5050SafetyState.msg
 )
 
 set(action_files
-  action/ParallelGripperCommand.action
+  action/ExecuteMotionPrimitiveSequence.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
+  action/ParallelGripperCommand.action
   action/PointHead.action
   action/SingleJointPosition.action
 )
@@ -51,6 +53,7 @@ set(action_files
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetOdometry.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
