@@ -2,40 +2,59 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-5.9.0 (2026-04-02)
+6.9.0 (2026-04-02)
 ------------------
-* Remove linters  dependencies (`#298 <https://github.com/ros-controls/control_msgs/issues/298>`_) (`#300 <https://github.com/ros-controls/control_msgs/issues/300>`_)
-* Contributors: mergify[bot]
+* Remove linters  dependencies (`#298 <https://github.com/ros-controls/control_msgs/issues/298>`_)
+* Contributors: Christoph Fröhlich
 
-5.8.0 (2026-02-02)
+6.8.0 (2026-02-02)
 ------------------
-* set odometry interface for the new service (`#287 <https://github.com/ros-controls/control_msgs/issues/287>`_) (`#288 <https://github.com/ros-controls/control_msgs/issues/288>`_)
-* Contributors: mergify[bot]
+* set odometry interface for the new service (`#287 <https://github.com/ros-controls/control_msgs/issues/287>`_)
+* Contributors: Ege Kural
 
-5.7.0 (2025-12-31)
+6.7.0 (2025-12-31)
 ------------------
-* add BatteryStates msg (backport `#250 <https://github.com/ros-controls/control_msgs/issues/250>`_) (`#283 <https://github.com/ros-controls/control_msgs/issues/283>`_)
-* Add vda5050 safety state msg (backport `#266 <https://github.com/ros-controls/control_msgs/issues/266>`_) (`#282 <https://github.com/ros-controls/control_msgs/issues/282>`_)
-* Contributors: mergify[bot]
+* add BatteryStates msg (`#250 <https://github.com/ros-controls/control_msgs/issues/250>`_)
+* Add vda5050 safety state msg (`#266 <https://github.com/ros-controls/control_msgs/issues/266>`_)
+* Contributors: Yara Shahin
 
-5.6.0 (2025-12-16)
+6.6.0 (2025-12-09)
 ------------------
-* Add Keys and Float64Values messages (`#273 <https://github.com/ros-controls/control_msgs/issues/273>`_) (`#281 <https://github.com/ros-controls/control_msgs/issues/281>`_)
-* Let's not lint generated code please (`#238 <https://github.com/ros-controls/control_msgs/issues/238>`_) (`#239 <https://github.com/ros-controls/control_msgs/issues/239>`_)
-* Contributors: mergify[bot]
+* Add Keys and Float64Values messages (`#273 <https://github.com/ros-controls/control_msgs/issues/273>`_)
+* Contributors: Sai Kishor Kothakota
 
-5.5.0 (2025-07-20)
+6.5.0 (2025-08-27)
 ------------------
-* Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_) (`#230 <https://github.com/ros-controls/control_msgs/issues/230>`_)
-* Contributors: Felix Exner
+* Adding new `HardwareStatus` and `HardwareDeviceStatus` messages  (`#240 <https://github.com/ros-controls/control_msgs//issues/240>`_)
+* Let's not lint generated code please (`#238 <https://github.com/ros-controls/control_msgs//issues/238>`_)
+* Feature/joint wrench msgs (`#221 <https://github.com/ros-controls/control_msgs//issues/221>`_)
+* Contributors: Bence Magyar, Davide Risi, Soham Patil
 
-5.4.1 (2025-06-06)
+6.4.0 (2025-07-19)
 ------------------
-* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_) (`#216 <https://github.com/ros-controls/control_msgs/issues/216>`_)
-* Contributors: mergify[bot]
+* Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_)
+* Add message to control a robot via linear velocity and steering position (`#217 <https://github.com/ros-controls/control_msgs/issues/217>`_)
+* Contributors: Felix Exner, wittenator
 
-5.4.0 (2025-03-12)
+6.3.0 (2025-06-11)
 ------------------
+* Add indices to FollowJointTrajectory to store trajectory index being executed (`#67 <https://github.com/ros-controls/control_msgs/issues/67>`_)
+* Contributors: Levi Armstrong
+
+6.2.0 (2025-06-06)
+------------------
+* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_)
+* Refine naming in SteeringControllerStatus (`#211 <https://github.com/ros-controls/control_msgs/issues/211>`_)
+* Contributors: Christoph Fröhlich
+
+6.1.0 (2025-04-24)
+------------------
+* Remove unused members from PidState.msg (`#178 <https://github.com/ros-controls/control_msgs/issues/178>`_)
+* Contributors: Victor Coutinho Vieira Santos
+
+6.0.0 (2025-03-12)
+------------------
+* Cleanup duplicate entries in the msg definition (`#179 <https://github.com/ros-controls/control_msgs/issues/179>`_)
 * Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
 * Contributors: Christoph Fröhlich
 
