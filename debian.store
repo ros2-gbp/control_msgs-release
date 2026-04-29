@@ -1,1 +1,1 @@
-{"base": "4c70dafedf63", "parent": "debian/rolling/control_msgs", "previous": "59f789352588", "trim": "", "trimbase": ""}
+{"base": "2e0624d", "parent": "debian/lyrical/control_msgs", "previous": "f392ed4", "trim": "", "trimbase": ""}
